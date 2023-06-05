@@ -15,29 +15,12 @@
   font-family: var(--principal-font);
 }
 
-html{
-  width: 100%;
-  background: url(../assets/deva-darshan-BMFAd8vcMow-unsplash.jpg);
+body{
+  background: url(../assets/image.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
-}
-
-body{
-  margin: 0;
-  backdrop-filter: brightness(0.45);
-}
-
-@media (min-width: 620px) {
-
-  html{
-    height: 100vh;
-  }
-
-  body{
-    height: 100vh;
-  }
 }
 
 a{

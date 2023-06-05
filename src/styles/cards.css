@@ -1,6 +1,5 @@
 .Cards{
-  padding: 0 10px;
-  min-height: 500px;
+  padding: 10px;
 }
 
 .Cards button {
@@ -16,11 +15,10 @@
 }
 
 .Cards-container{
-  display: grid;
-  align-items: center;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 25px;
+    display: flex;
+    margin-top: 15px;
+    gap: 25px;
+    flex-direction: column;
 }
 
 .Card h2{
@@ -51,23 +49,18 @@
   grid-column: 2;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 600px) {
   .Cards{
-    padding: 0 30px;
-    display: grid;
-    align-items: center;
-    justify-items: start;
-    grid-template-columns: 1fr 5fr;
-    min-height: 200px;
+    padding: 30px;
   }
 
   .Cards-container{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: 40px;
   }
 
   .Card{
     text-align: left;
-    width: 25%;
   }
 }

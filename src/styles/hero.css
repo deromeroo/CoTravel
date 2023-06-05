@@ -23,7 +23,7 @@
   line-height: 22px;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 600px) {
   .Hero{
     margin-top: 50px;
     padding: 10px 30px;
