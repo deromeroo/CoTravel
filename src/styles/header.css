@@ -1,0 +1,67 @@
+.Header{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo img {
+  height: 30px;
+  width: 35px;
+  margin-right: 5px;
+}
+
+.Logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo a{
+  font-size: 24px;
+  font-family: var(--title-font);
+  font-weight: bold;
+  margin: 0;
+}
+
+.Sign{
+  border-bottom: 1.8px solid white;
+  font-size: 16px;
+}
+
+.Sign:hover{
+  color: var(--details-color);
+  border-bottom: 1.8px solid var(--details-color);
+}
+
+.Nav{
+  position: relative;
+  top: 10px;
+}
+
+.Nav ul {
+  line-height: 22px;
+}
+
+.Nav ul li a {
+  font-size: 16px;
+  transition: color 5ms;
+}
+
+.Nav ul li a:hover {
+  color: var(--details-color);
+}
+
+@media (min-width: 720px) {
+
+  .Header{
+    padding: 0 20px;
+  }
+
+  .Nav{
+    position: relative;
+    top: 45px;
+  }
+}

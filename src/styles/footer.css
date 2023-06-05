@@ -1,0 +1,21 @@
+.Footer{
+  padding: 10px 5px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.Footer p {
+  margin: 0 ;
+  font-family: var(--title-font);
+  color: white;
+}
+
+.Footer a {
+  font-family: var(--title-font);
+  color: var(--details-color);
+}
