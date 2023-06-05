@@ -18,7 +18,7 @@
 .Cards-container{
     display: flex;
     margin-top: 15px;
-    gap: 25px;
+    gap: 35px;
     flex-direction: column;
 }
 
